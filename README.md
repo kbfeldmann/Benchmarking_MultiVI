@@ -11,4 +11,4 @@ Insert photo of MultiVI
 
 We found that MultiVI is better at integrating single-modalities when using the gene expression neighborhood, potentially because expression counts are more variable and provide more information than accessibility peaks. Additionally, as expected with machine learning models, MultiVI performed better when trained with more paired information. Finally, performance varies by cell type where cell types with many cells are likely to integrate similar cells.
 
-To learn more, check out my poster for early-career molecular biologists: click here
+To learn more, check out my poster for early-career molecular biologists: [click here](Spring_Rotation_Poster.pdf)
