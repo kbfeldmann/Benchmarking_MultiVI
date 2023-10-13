@@ -6,9 +6,14 @@ To overcome the limitations of experimentally generating multi-modal data sets, 
 
 **Research Question:** *How successful is MultiVI at integrating artificially unpaired gene expression and chromatin accessibility data?*
 
-Insert photo of MultiVI  
+**-----Insert photo of MultiVI-----**
+
 **Figure 1:** MultiVI is a variational autoencoder that uses neural networks to pair gene expression and chromatin accessibility modalities (Ashuach et al. 2021). Modality-specific encoders learn biological relationships from the paired modalities, and modality-specific decoders sample from the low-dimensional latent space to integrate single-modalities or impute missing modalities.
 
 We found that MultiVI is better at integrating single-modalities when using the gene expression neighborhood, potentially because expression counts are more variable and provide more information than accessibility peaks. Additionally, as expected with machine learning models, MultiVI performed better when trained with more paired information. Finally, performance varies by cell type where cell types with many cells are likely to integrate similar cells.
 
 To learn more, check out my poster for early-career molecular biologists: [click here](Spring_Rotation_Poster.pdf)
+
+## Benchmarking Methods
+
+**-----Insert figure-----**
